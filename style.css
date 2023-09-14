@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+/*
+Fonts:
+- Poppins: 300, 400, 600,700, 800
+- Ribik: 300, 400, 500, 600
+*/
+
+:root {
+  --primary-color: #ff6b6b;
+  --secondary-color: #794afa;
+  --secondary-dark-color: #453c5c;
+
+  --white-color: #ffffff;
+  --light-bg-color: #f2f3f5;
+  --light-text-color: #7c899a;
+  --border-color: #e5e8ec;
+  --dark-color: #0a021c;
+
+  --font-small: 13px;
+  --font-smaller: 11px;
+
+  --percent100: 100%;
+  --percent50: 50%
+
+  --fw3: 300;
+  --fw5: 500;
+  --fw6: 600;
+  --fw7: 700;
+  --fw8: 800;
+
+  --trans-background-color: background-color .3s, color .3s;
+  --trans-background: background-color .3s;
+  --trans-color: color .3s;
+} 
+
+* {
+  margin:0;
+  padding:0;
+}
+
+*,::before, ::affer {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--dark-color);
+  background-color: var(var(--white-color));
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: var(--percent100);
+  vertical-align: middle;
+}
+
+strong {
+  font-weight: var(--fw8);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input::placeholder {
+  font:inherit;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins';
+}
+
+h1 {
+  font-size: calc(1.3em + 1vw);
+  font-weight: var(--fw8);
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: var(-fw6);
+}
+
+/* ------------------
+ * REUSABLE SELECTOR
+ *-----------------*/
+
+ .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 0.938em;
+ }
+
+ .column {
+  margin-left: -0.938em;
+  margin-right: -0.938em;
+}
+
+ .column .row {
+  padding: 0 0.938em;
+ }
+
+ .flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .flexcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .flexitem {
+  display: flex;
+  align-items: center;
+ }
+ flexcol {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+ }
+
+
+
+
+
+
+
+
+
+
+ /* ------------------
+  * Structure Styling
+
+    00. Reusable selectors
+
+    01.HEADER
+        a. Header Top
+        b. Header Nav
+        c. Header Main, Departments Category
+        d. Search Form
+        e. Responsive MENU - Off Canvas
+    02. SLIDER
+    03. BRANDS
+    04. PRODUCT
+        a. Global product
+        b. BIG product
+        c. MINI product
+        d. MAIN product
+    05. BANNER
+        a. News Letter
+        b. Widget
+        c. Footer Info
+    06. BOTTOM MENU
+        a. Search
+    07. OVERLAY
+    08. PAGE SINGLE
+        a. Breadcrumb
+        b. Product details
+        c. Product description
+        d. Product Review
+        e. Product Review Form
+    09. PAGE SINGLE: SPACIAL OFFER
+    10. PAGE CATEGORY
+        a. sidebar product filter
+        b. product block
+    11. CART
+    12. PAGE CART
+    13. PAGE CHECKOUT
+    14. MODAL
+    15.RESPONSIVE
+  
+  *
+   ------------------*/
+
+/* ------------------
+ * 01. HEADER
+ *-----------------*/
+
+
+
+
+
+
+
+ /* 01. HEADER ---------------------------------------------
+ *   a. Header Top
+ *-----------------*/
+
+
+
+
+
+
+ /* 01. HEADER ---------------------------------------------
+ *   b. Header Nav
+ *-----------------*/
+
+
+
+
+/* 01. HEADER ---------------------------------------------
+ *   c. Header Header Main, Departments Category
+ *-----------------*/
+
+
+
+
+
+ /* 01. HEADER ---------------------------------------------
+ *   d. Search Form
+ *-----------------*/
+
+
+
+
+
+
+ /* 01. HEADER ---------------------------------------------
+ *   e. Responsive MENU - Off Canvas
+ *-----------------*/
+
+
+
+
+ /* ------------------
+ * 02. SLIDER
+ *-----------------*/
+
+
+
+
+
+/* ------------------
+ * 03. BRANDS
+ *-----------------*/
+
+
+
+
+ /* ------------------
+ * 04. PRODUCT BLOCK STYLE
+ *-----------------*/
+
+
+
+
+  /* 04. PRODUCT ---------------------------------------------
+  *   a. Global product
+  *-----------------*/
+
+
+
+
+  /* 04. PRODUCT ---------------------------------------------
+  *   b. BIG product
+  *-----------------*/
+
+
+
+
+  /* 04. PRODUCT ---------------------------------------------
+  *   c. MINI product
+  *-----------------*/
+
+
+
+
+
+  /* 04. PRODUCT ---------------------------------------------
+  *   d. MAIN product
+  *-----------------*/
+
+
+
+
+/* ------------------
+ * 05. BANNER
+ *-----------------*/
+
+
+
+
+
+/* ------------------
+ * 05. FOOTER
+ *-----------------*/
+
+
+
+
+
+ /* 05. FOOTER ---------------------------------------------
+  *  a. News Letter
+  *-----------------*/
+
+
+
+
+  /* 05. FOOTER ---------------------------------------------
+  *   b. Widget
+  *-----------------*/
+
+
+
+
+  /* 05. FOOTER ---------------------------------------------
+  *   c. Footer Info
+  *-----------------*/
+
+
+
+
+/* ------------------
+ * 06. BOTTOM MENU
+ *-----------------*/
+
+
+
+
+
+ /* 06. BOTTOM MENU ---------------------------------------------
+  *  a. Search
+  *-----------------*/
+
+
+
+
+/* ------------------
+ * 07. OVERLAY
+ *-----------------*/
+
+
+
+/* ------------------
+ * 08. PAGE SINGLE
+ *-----------------*/
+
+
+
+  /* 08. PAGE SINGLE ---------------------------------------------
+  *   a. Breadcrumb
+  *-----------------*/
+
+
+
+
+
+  /* 08. PAGE SINGLE ---------------------------------------------
+  *   b. Product details
+  *-----------------*/
+
+
+
+
+   /* 08. PAGE SINGLE ---------------------------------------------
+  *    c. Product description
+  *-----------------*/
+
+
+
+
+
+
+   /* 08. PAGE SINGLE ---------------------------------------------
+  *    d. Product Review
+  *-----------------*/
+
+
+
+
+
+
+   /* 08. PAGE SINGLE ---------------------------------------------
+  *    e. Product Review Form
+  *-----------------*/
+
+
+
+
+
+
+/* ------------------
+ * 09. PAGE SINGLE: SPACIAL OFFER
+ *-----------------*/
+
+
+
+
+/* ------------------
+ * 10. PAGE CATEGORY
+ *-----------------*/
+
+
+
+
+
+
+ /* 10. PAGE CATEGORY---------------------------------------------
+  *  a. Sidebar product filter
+  *-----------------*/
+
+
+
+
+
+
+
+
+   /* 10. PAGE CATEGORY---------------------------------------------
+  *  b. Product block
+  *-----------------*/
+
+
+
+
+
+
+/* ------------------
+ * 11. CART
+ *-----------------*/
+
+
+
+
+
+
+/* ------------------
+ * 12. PAGE CART
+ *-----------------*/
+
+
+
+
+
+
+/* ------------------
+ * 13. PAGE CHECKOUT
+ *-----------------*/
+
+
+
+
+
+/* ------------------
+ * 14. MODAL
+ *-----------------*/
+
+
+
+
+
+
+
+/* ------------------
+ * 15. RESPONSIVE
+ *-----------------*/
